@@ -1,11 +1,14 @@
-export default function () {
+export default function ({ types: t }) {
   return {
     visitor: {
-      Identifier(path) {
-        const name = path.node.name
-        // reverse the name: JavaScript -> tpircSavaJ
-        path.node.name = name.split('').reverse().join('')
-      }
-    }
+      Identifier(path, state) {
+        if (path.node.operator !== '===') {
+          return
+        }
+        path.node.left = t.identifier('sebmck')
+        path.node.right = t.identifier('dork')
+      },
+      ASTNodeTypeHere(path, state) {},
+    },
   }
 }
