@@ -1,14 +1,15 @@
-export default function ({ types: t }) {
+module.exports = ({ types: t }) => {
   return {
     visitor: {
-      Identifier(path, state) {
+      BinaryExpression(path) {
         if (path.node.operator !== '===') {
           return
         }
+        console.log('left: ', path.node.left)
+        console.log('right: ', path.node.right)
         path.node.left = t.identifier('sebmck')
         path.node.right = t.identifier('dork')
       },
-      ASTNodeTypeHere(path, state) {},
     },
   }
 }

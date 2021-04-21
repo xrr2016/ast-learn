@@ -4,11 +4,12 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "babel": "babel code.js"
+    "babel": "babel test.js -d output"
   },
   "dependencies": {
     "acorn": "^8.1.1",
-    "espree": "^7.3.1"
+    "espree": "^7.3.1",
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "@babel/cli": "^7.13.14",
