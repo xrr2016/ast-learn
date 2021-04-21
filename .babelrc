@@ -1,5 +1,5 @@
 {
   "plugins": [
-    "./plugins/babel-plugin-lodash-import"
+    "./plugins/babel-plugin-remove-comment"
   ]
 }
