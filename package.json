@@ -9,7 +9,9 @@
   },
   "dependencies": {
     "acorn": "^8.1.1",
+    "eslint-plugin-local-rules": "^1.1.0",
     "espree": "^7.3.1",
+    "jscodeshift": "^0.11.0",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
