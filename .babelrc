@@ -1,5 +1,5 @@
 {
   "plugins": [
-    "./babel-plugin-lodash"
+    "./plugins/babel-plugin-pow"
   ]
 }

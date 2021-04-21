@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "babel": "babel test.js -d output"
+    "babel": "babel src/test.js -d output"
   },
   "dependencies": {
     "acorn": "^8.1.1",

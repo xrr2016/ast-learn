@@ -1,4 +1,4 @@
-import { get, isFunction } from 'lodash'
+import _, { get, isFunction } from 'lodash'
 
 const obj = {
   foo: {
