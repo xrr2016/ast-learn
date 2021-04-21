@@ -1,5 +1,5 @@
 {
   "plugins": [
-    "./plugins/babel-plugin-remove-comment"
+    "./plugins/babel-plugin-remove-console"
   ]
 }
