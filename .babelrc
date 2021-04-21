@@ -1,5 +1,5 @@
 {
   "plugins": [
-    "./plugins/babel-plugin-pow"
+    "./plugins/babel-plugin-pow-binary"
   ]
 }
