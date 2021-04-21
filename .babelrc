@@ -1,5 +1,5 @@
 {
   "plugins": [
-    "./plugins/babel-plugin-pow-binary"
+    "./plugins/babel-plugin-lodash-import"
   ]
 }
