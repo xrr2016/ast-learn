@@ -9,7 +9,6 @@
   },
   "dependencies": {
     "acorn": "^8.1.1",
-    "eslint-plugin-local-rules": "^1.1.0",
     "espree": "^7.3.1",
     "jscodeshift": "^0.11.0",
     "lodash": "^4.17.21"
@@ -17,6 +16,7 @@
   "devDependencies": {
     "@babel/cli": "^7.13.14",
     "@babel/core": "^7.13.15",
-    "eslint": "^7.24.0"
+    "eslint": "^7.24.0",
+    "eslint-plugin-func-max-param": "file:eslint-plugin-func-max-param"
   }
 }

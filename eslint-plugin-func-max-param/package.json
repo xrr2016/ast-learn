@@ -1,0 +1,9 @@
+{
+  "name": "eslint-plugin-func-max-param",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">=0.8.0"
+  }
+}
