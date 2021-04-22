@@ -5,11 +5,13 @@
   "license": "MIT",
   "scripts": {
     "babel": "babel src/log.js -d output",
-    "lint": "./node_modules/.bin/eslint src/lint.js"
+    "lint": "./node_modules/.bin/eslint src/lint.js",
+    "jscodeshift": "./node_modules/.bin/jscodeshift -t transforms/remove-console.js src/shift.js"
   },
   "dependencies": {
     "acorn": "^8.1.1",
     "espree": "^7.3.1",
+    "gogocode": "^0.2.13",
     "jscodeshift": "^0.11.0",
     "lodash": "^4.17.21"
   },
