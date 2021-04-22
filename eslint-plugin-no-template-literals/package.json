@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-func-max-param",
+  "name": "eslint-plugin-no-template-literals",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",

@@ -9,8 +9,12 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: 'module',
   },
-  plugins: ['eslint-plugin-func-max-param'],
+  plugins: [
+    'eslint-plugin-function-max-params',
+    'eslint-plugin-no-template-literals',
+  ],
   rules: {
-    'func-max-param/no-template-literals': 'error',
+    'function-max-params/function-max-params': 'error',
+    'no-template-literals/no-template-literals': 'error',
   },
 }
