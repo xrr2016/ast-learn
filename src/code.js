@@ -1,24 +1,21 @@
 #!/usr/bin/env node
 
 const $ = require('gogocode')
-
-function question(query) {
-  query = null
-  const answer = 42
-
-  return answer
-}
-
 const code = `
-  const moment = require('moment');
-  var a = 1;
-  const b = 2;
-  function log (x, y = 'World') {
-    console.log('a')
-    console.log(a, x, y);
+  function ask() {
+    const answer = 42
+    return answer
   }
 `
-
-const newCode = $(code).replace('a', 'c').generate()
+const newCode = $(code)
+  .replace('ask', 'question')
+  .replace('answer', 'result')
+  .generate()
 
 console.log(newCode)
+
+// 输出
+// function question() {
+//   const result = 42
+//   return result;
+// }

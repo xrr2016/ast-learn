@@ -15,7 +15,3 @@ module.exports = ({ types: t }) => {
     },
   }
 }
-
-// path.replaceWith(
-//   t.binaryExpression("**", path.node.left, t.numberLiteral(2))
-// );
