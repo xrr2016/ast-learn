@@ -15,13 +15,11 @@ module.exports = {
   },
   plugins: [
     'eslint-plugin-function-max-params',
-    'eslint-plugin-no-template-literals',
     'eslint-plugin-no-nested-condition',
     'eslint-plugin-react',
   ],
   rules: {
     'function-max-params/function-max-params': 'error',
-    'no-template-literals/no-template-literals': 'error',
     'no-nested-condition/no-nested-condition': 'error',
   },
 }
